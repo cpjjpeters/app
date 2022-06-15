@@ -1,4 +1,4 @@
-package com.amigoscode;
+package com.amigoscode.services;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
@@ -6,7 +6,8 @@ import org.springframework.stereotype.Component;
 /* carlpeters created on 15/06/2022 inside the package - com.amigoscode */
 @Slf4j
 @Component
-public class Service {
+@org.springframework.stereotype.Service
+public class SomeService {
 
 
     public void aThinghy(){

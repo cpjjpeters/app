@@ -1,5 +1,6 @@
 package com.amigoscode;
 
+import com.amigoscode.services.SomeService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -12,8 +13,8 @@ public class Main {
         System.out.println("Hello Amigo's");
         Person person = new Person("Jamila");
         log.info("Simple log statement with inputs {}, {} and {}", 1,2,3);
-        System.out.println(person.getName());
-        Service service = new Service();
+        log.info(person.getName());
+        SomeService service = new SomeService();
         service.aThinghy();
     }
 }
